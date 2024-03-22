@@ -1,5 +1,4 @@
 import org.example.Company;
-import org.example.Employee;
 import org.example.Healthplan;
 import org.example.enums.Plan;
 import org.junit.jupiter.api.BeforeEach;
@@ -9,6 +8,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 import java.lang.reflect.Field;
 import java.util.Arrays;
+import org.example.Employee;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.instanceOf;
